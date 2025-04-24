@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charitha Sri Sakalabathula - Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .fade-enter { opacity: 0; }
+        .fade-enter-active { opacity: 1; transition: opacity 500ms ease-in; }
+        .fade-exit { opacity: 1; }
+        .fade-exit-active { opacity: 0; transition: opacity 500ms ease-out; }
+    </style>
+</head>
+<body class="bg-gray-100 font-sans">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md p-4 fixed w-full top-0 z-10">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold">PORTFOLIO</h1>
+            <div class="space-x-6">
+                <a href="#home" class="nav-link text-gray-700 hover:text-black">Home</a>
+                <a href="#about" class="nav-link text-gray-700 hover:text-black">About Me</a>
+                <a href="#skills" class="nav-link text-gray-700 hover:text-black">Skills</a>
+                <a href="#projects" class="nav-link text-gray-700 hover:text-black">Projects</a>
+                <a href="#contact" class="nav-link text-gray-700 hover:text-black">Contact Me</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container mx-auto pt-20">
+        <!-- Home Section -->
+        <section id="home" class="page min-h-screen flex flex-col justify-center items-center text-center">
+            <div class="bg-cover bg-center h-64 w-full" style="background-image: url('https://images.unsplash.com/photo-1516321497487-e288fb19713f?q=80&w=2070&auto=format&fit=crop')"></div>
+            <h1 class="text-4xl font-bold mt-6">Sakalabathula, Charitha Sri</h1>
+            <p class="text-xl mt-2">Data Analyst | Business Analyst</p>
+            <div class="mt-4 space-y-2">
+                <p class="flex items-center justify-center"><span class="mr-2">📧</span> charithasri654@gmail.com</p>
+                <p class="flex items-center justify-center"><span class="mr-2">📸</span> charithasri987</p>
+                <p class="flex items-center justify-center"><span class="mr-2">🔗</span> <a href="https://www.linkedin.com/in/charithasri7" class="text-blue-600">www.linkedin.com/in/charithasri7</a></p>
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section id="about" class="page min-h-screen hidden flex-col justify-center p-6">
+            <h2 class="text-3xl font-bold mb-4">About Me</h2>
+            <p class="text-lg leading-relaxed">
+                I'm Charitha Sri Sakalabathula, a results-driven B.Com student with hands-on experience in web development, accounting, and data analytics. My journey blends creativity, logic, and technology—whether it's building interactive dashboards with Power BI, developing responsive web pages, or designing AI-powered tools inspired by cutting-edge innovations.<br><br>
+                With a solid foundation in Python, HTML/CSS, Excel, and Generative AI, I've completed multiple projects that showcase my ability to turn raw data into clear, actionable insights. I thrive in collaborative environments, value clear communication, and enjoy solving complex problems with precision.<br><br>
+                I'm deeply passionate about pursuing a career as a Data Analyst or Business Analyst. I love diving into data, uncovering trends, and transforming information into strategies that drive business growth. My goal is to help organizations make smarter decisions through the power of data storytelling and analysis.<br><br>
+                Currently pursuing my Bachelor's in Commerce at Maris Stella College, I'm passionate about contributing to organizations that embrace digital transformation and data-driven decision-making. I'm eager to leverage my skills and energy in real-world business settings where innovation meets impact.
+            </p>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="page min-h-screen hidden flex-col justify-center p-6">
+            <h2 class="text-3xl font-bold mb-4">Skills</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div>
+                    <h3 class="text-xl font-semibold mb-2">Programming & Web Development</h3>
+                    <ul class="list-disc pl-5">
+                        <li>Python</li>
+                        <li>HTML & CSS</li>
+                    </ul>
+                    <h3 class="text-xl font-semibold mt-4 mb-2">Data Analysis & Visualization</h3>
+                    <ul class="list-disc pl-5">
+                        <li>Power BI</li>
+                        <li>Microsoft Excel</li>
+                        <li>Google Sheets</li>
+                        <li>SQL (Basic)</li>
+                    </ul>
+                    <h3 class="text-xl font-semibold mt-4 mb-2">AI & Machine Learning</h3>
+                    <ul class="list-disc pl-5">
+                        <li>Generative AI (LLMs, API Integration)</li>
+                        <li>Machine Learning & Deep Learning (Foundational)</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold mb-2">Accounting & Financial Tools</h3>
+                    <ul class="list-disc pl-5">
+                        <li>Tally ERP 9</li>
+                        <li>GST & TDS Filing</li>
+                        <li>Cost and Management Accounting</li>
+                    </ul>
+                    <h3 class="text-xl font-semibold mt-4 mb-2">Productivity & Collaboration</h3>
+                    <ul class="list-disc pl-5">
+                        <li>Microsoft Word</li>
+                        <li>Google Workspace</li>
+                        <li>Canva (Web Design)</li>
+                    </ul>
+                    <h3 class="text-xl font-semibold mt-4 mb-2">Soft Skills</h3>
+                    <ul class="list-disc pl-5">
+                        <li>Data Storytelling</li>
+                        <li>Business Communication</li>
+                        <li>Presentation & Teamwork</li>
+                        <li>Time Management</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="page min-h-screen hidden flex-col justify-center p-6">
+            <h2 class="text-3xl font-bold mb-4">Projects</h2>
+            <ol class="list-decimal pl-5 space-y-4">
+                <li>
+                    <strong>Hospital Performance Dashboard</strong><br>
+                    Tool Used: Power BI<br>
+                    Designed an interactive dashboard for Soumya Multi-Specialty Hospital. It visualizes patient flow, department performance, and key operational KPIs, helping stakeholders make informed, data-driven decisions.
+                </li>
+                <li>
+                    <strong>Sales Analysis Dashboard</strong><br>
+                    Tool Used: Microsoft Excel<br>
+                    Created a sales dashboard for Vindya Store using pivot tables, charts, and formulas. Identified sales trends, highlighted top products, and enabled performance tracking with clear visual insights.
+                </li>
+                <li>
+                    <strong>Custom Chatbot with ChatGPT</strong><br>
+                    Technology: Generative AI (LLMs), API Integration<br>
+                    Built an intelligent chatbot application that handles user queries with contextual understanding. Integrated ChatGPT via API to simulate natural, human-like conversation flow.
+                </li>
+                <li>
+                    <strong>AI-Powered Visual Recognition Tool</strong><br>
+                    Technology: Computer Vision, LLMs<br>
+                    Developed a smart tool inspired by Google Lens. Used computer vision APIs and AI models to recognize real-world objects and return contextual information in real time.
+                </li>
+                <li>
+                    <strong>Song Lyrics Generator</strong><br>
+                    Technology: NLP, Generative AI<br>
+                    Built a fun and creative lyrics generator using natural language processing. The tool generates original lyrics based on genre theme, perfect for artists and creators.
+                </li>
+            </ol>
+        </section>
+
+        <!-- Contact Me Section -->
+        <section id="contact" class="page min-h-screen hidden flex-col justify-center items-center p-6">
+            <h2 class="text-3xl font-bold mb-4">Contact Me</h2>
+            <div class="space-y-4 text-lg">
+                <p class="flex items-center"><span class="mr-2">📞</span> 7997675225</p>
+                <p class="flex items-center"><span class="mr-2">📧</span> charithasri654@gmail.com</p>
+                <p class="flex items-center"><span class="mr-2">📸</span> charithasri987</p>
+                <p class="flex items-center"><span class="mr-2">🔗</span> <a href="https://www.linkedin.com/in/charithasri7" class="text-blue-600">www.linkedin.com/in/charithasri7</a></p>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        // Smooth page transitions
+        const navLinks = document.querySelectorAll('.nav-link');
+        const pages = document.querySelectorAll('.page');
+
+        function showPage(targetId) {
+            pages.forEach(page => {
+                if (page.id === targetId) {
+                    page.classList.remove('hidden');
+                    page.classList.add('fade-enter');
+                    setTimeout(() => page.classList.add('fade-enter-active'), 10);
+                } else {
+                    if (!page.classList.contains('hidden')) {
+                        page.classList.add('fade-exit');
+                        page.classList.add('fade-exit-active');
+                        setTimeout(() => page.classList.add('hidden'), 500);
+                    }
+                }
+            });
+        }
+
+        navLinks.forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                const targetId = link.getAttribute('href').substring(1);
+                showPage(targetId);
+                window.history.pushState({}, '', `#${targetId}`);
+            });
+        });
+
+        // Handle initial page load and browser back/forward
+        window.addEventListener('popstate', () => {
+            const targetId = window.location.hash.substring(1) || 'home';
+            showPage(targetId);
+        });
+
+        // Show the initial page
+        const initialPage = window.location.hash.substring(1) || 'home';
+        showPage(initialPage);
+    </script>
+</body>
+</html>
